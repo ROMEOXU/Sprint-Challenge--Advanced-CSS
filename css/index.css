@@ -181,7 +181,12 @@ nav {
   padding-bottom: 1%;
 }
 .navigation div {
-  width: 10%;
+  width: 15%;
+}
+@media (max-width: 500px) {
+  .navigation div {
+    width: 20%;
+  }
 }
 footer {
   color: #22283B;
