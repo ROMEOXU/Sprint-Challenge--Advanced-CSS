@@ -1,1 +1,25 @@
 // Mixins Here
+.center() {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+//button
+
+.button(@size,@color,@family){
+    font-size:@size;
+    background-color:@color;
+    font-family: @family;
+    width:50%;
+    color:white;
+    text-align: center;
+    height:6vh;
+    .center();
+ 
+    &:hover{
+        background-color: bisque;
+        color:black;
+    }
+ }
